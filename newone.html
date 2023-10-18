@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>example</title>
+    <link rel="stylesheet" href="newone.css" />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="d-flex align-item-center shadow-sm" style="z-index: 998">
+      <a href="login.html">
+        <img
+          src="./images/./icons8_facebook_48px.png"
+          alt="a"
+          width="48px"
+          height="48px"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="facebook logo"
+      /></a>
+      <input
+        class="b rounded-pill"
+        type="search"
+        placeholder="Search facebook"
+        data-bs-toggle="dropdown"
+      />
+      <ul class="nav justify-content-center" id="center">
+        <li
+          class="nav-item border-4 pb-2 pad ms-5 border-primary border-bottom"
+        >
+          <a class="nav-link" href="newone.html"
+            ><img
+              src="./images/home a.png"
+              alt="s"
+              width="30px"
+              height="30px"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Home"
+          /></a>
+        </li>
+        <li class="nav-item pad pb-2">
+          <a class="nav-link" href="video.html"
+            ><img
+              src="./images/video u.png"
+              alt="s"
+              width="30px"
+              height="30px"
+              title="Video"
+          /></a>
+        </li>
+        <li class="nav-item pad pb-2">
+          <a class="nav-link" href="marketplace.html"
+            ><img
+              src="./images/market u.png"
+              alt="s"
+              width="30px"
+              height="30px"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Marketplace"
+          /></a>
+        </li>
+        <li class="nav-item pad pb-2">
+          <a class="nav-link" href="groups.html"
+            ><img
+              src="./images/group u.png"
+              alt="s"
+              width="30px"
+              height="30px"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Groups"
+          /></a>
+        </li>
+        <li class="nav-item pad pb-2 mandi">
+          <a class="nav-link" href="games.html"
+            ><img
+              src="./images/game u.png"
+              alt=""
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Games"
+          /></a>
+        </li>
+        <li class="nav-item pad pb-2">
+          <a href="collapse.html">
+            <button class="navbar-toggler namdi bg-light" type="button">
+              <span class="navbar-toggler-icon"></span></button
+          ></a>
+        </li>
+      </ul>
+      <ul class="nav lft">
+        <li class="nav-item" style="margin-right: -28px">
+          <a onclick="myfunction()" class="nav-link" href="#"
+            ><img
+              src="./icons/tabs.png"
+              alt="s"
+              width="40px"
+              height="40px"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Tabs"
+          /></a>
+        </li>
+        <li class="nav-item" style="margin-right: -28px">
+          <a class="nav-link" href="#"
+            ><img
+              src="./icons/msgtb.png"
+              alt="s"
+              width="40px"
+              height="40px"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Message"
+          /></a>
+        </li>
+        <li class="nav-item" style="margin-right: -28px">
+          <a class="nav-link" href="#"
+            ><img src="./icons/ntfctntb.png" alt="s" width="40px" height="40px"
+          /></a>
+        </li>
+        <li class="nav-item" style="margin-right: 15px">
+          <a class="nav-link" href="#"
+            ><img
+              src="./images/IMG_6742.JPG"
+              class="rounded-circle"
+              alt="profile"
+              width="43px"
+              height="43px"
+              style="object-fit: cover"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Profile"
+          /></a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="scroller mb-3 border-0">
+        <div class="scroller-items">
+          <a class="over" href="#">
+            <img
+              src="./images/IMG_6742.JPG"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <button
+              type="button"
+              class="bttn btn-primary border-0 rounded-circle"
+            >
+              +
+            </button>
+            <div class="overlay shadow-sm">
+              <div class="text">Create story</div>
+            </div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/sani lawal story.jpg">
+            <img
+              src="./images/sani lawal story.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/sani lawal dp.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+              style="object-fit: cover"
+            />
+            <div class="tes">Sani lawal sld</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/ahmad kalil story.jpg">
+            <img
+              src="./images/ahmad kalil story.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/ahmad kalid dp.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+              style="object-fit: cover"
+            />
+            <div class="tes">Ahmad Khalid</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/favour.jpg">
+            <img
+              src="./images/favour.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/favour.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+            />
+            <div class="tes">phay vhour</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/liege post.jpg">
+            <img
+              src="./images/liege post.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+              style="object-fit: cover"
+            />
+            <img
+              src="./images/liege dp.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+            />
+            <div class="tes">Liege Muhammad</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/jamila.jpg">
+            <img
+              src="./images/jamila.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/01f962d3-6a5e-4cc0-89db-587b7b2a9a1d.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+              style="object-fit: cover"
+            />
+            <div class="tes">Jamila abdullahi</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/suleiman dp.jpg">
+            <img
+              src="./images/suleiman dp.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/suleiman dp.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+              style="object-fit: cover"
+            />
+            <div class="tes">Suleiman Abubakar</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/abdulsalam.jpg">
+            <img
+              src="./images/abdulsalam.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/abdulsalamdp.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+            />
+            <div class="tes">Abdulsalam Abubakar</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/auwal.JPG">
+            <img
+              src="./images/yaya musty.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/auwal.JPG"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+              style="object-fit: cover"
+            />
+            <div class="tes">Auwal Tijjani</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/fatma.jpg">
+            <img
+              src="./images/fatma.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+              style="object-fit: cover"
+            />
+            <img
+              src="./images/khadija.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+            />
+            <div class="tes">khadija Muhammad</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/IMG-20220929-WA0012 (1).jpg">
+            <img
+              src="./images/IMG-20230424-WA0009.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/on strike.JPG"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+            />
+            <div class="tes">Shalom abdullahi</div>
+          </a>
+        </div>
+        <div class="scroller-items">
+          <a class="over" href="./images/zainab.jpg">
+            <img
+              src="./images/zainab.jpg"
+              alt="me"
+              width="128px"
+              height="220px"
+              class="over"
+            />
+            <img
+              src="./images/zainab dp.jpg"
+              class="rounded-circle border border-3 border-primary nezi"
+              alt="top"
+              width="35px"
+              height="35px"
+            />
+            <div class="tes">Zainab Garba</div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="card bg-light mb-3 ps-3 pe-3 pt-2 pb-3 border-0 shadow-sm live"
+      >
+        <div style="display: flex" class="mb-2">
+          <img
+            src="./images/IMG_6742.JPG"
+            class="rounded-circle"
+            width="40px"
+            height="40px"
+            alt="hm"
+            style="object-fit: cover"
+          />
+          <input
+            type="text"
+            placeholder="Whats on your mind,Nazif?"
+            class="form-control-plaintext rounded-pill ms-2"
+          />
+        </div>
+        <div class="hr mb-3"></div>
+        <div
+          style="display: flex; justify-content: space-around; cursor: pointer"
+        >
+          <div>
+            <img src="./icons/vidp.png" width="24px" height="24px" alt="ss" />
+            <span class="span ms-1">Live video</span>
+          </div>
+          <div>
+            <!-- <input
+              type="file"
+              style="border: none; background-color: white;color: #f1f1f1; "
+            /> -->
+            <img
+              src="./icons/fotogaller.png"
+              alt="hd"
+              width="24px"
+              height="24px"
+            />
+            <span class="span">Photo/video</span>
+          </div>
+          <div>
+            <img src="./icons/smile.png" width="24px" height="24px" alt="" />
+            <span class="span">Feeling/activity</span>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-light mb-3 pt-2 pb-3 border-0 shadow-sm live post">
+        <div class="mb-1 pe-3 ps-3" style="display: flex">
+          <a class="over" href="./images/programing dp.jpg">
+            <img
+              src="./images/programing dp.jpg"
+              alt="me"
+              width="35px"
+              height="35px"
+              class="over"
+            />
+            <img
+              src="./images/IMG_6742.JPG"
+              class="rounded-circle nerhzii"
+              alt="top"
+              width="23px"
+              height="23px"
+              style="object-fit: cover"
+            />
+          </a>
+          <p class="sign ms-3" style="margin-top: -5px">
+            Programing Coding <br />
+            <span>Nazif Abdullahi · 12h · </span>
+          </p>
+        </div>
+        <div
+          class="mb-4 pe-3"
+          style="
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-top: -54px;
+          "
+        >
+          <img
+            src="./images/icons8_menu_vertical_24px.png"
+            alt="sc"
+            width="20px"
+            height="20px"
+            class="me-2"
+          />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="post"
+          ></button>
+        </div>
+        <img
+          src="./icons/my post.png"
+          width="100%"
+          height="auto"
+          alt="my post"
+        />
+        <div style="display: flex" class="pe-3 ps-3 pt-2">
+          <img src="./images/like.png" alt="mm" width="20px" height="20px" />
+          <img src="./images/laugh.png" alt="mm" width="20px" height="20px" />
+          <p
+            style="
+              opacity: 0.8;
+              font-weight: 500;
+              font-size: 0.95em;
+              margin-left: 5px;
+            "
+          >
+            Abdulsalam Abubakar and 1.5k others
+          </p>
+          <div style="margin-left: 2.2em">
+            <span>1k</span
+            ><img
+              src="./images/icons8_comments_26px.png"
+              alt="mm"
+              width="16px"
+              height="20px"
+              class="ms-1"
+            />
+            <span class="ms-2">785</span
+            ><img
+              src="./images/icons8_right_2_50px.png"
+              alt="mm"
+              width="16px"
+              height="20px"
+              class="ms-1"
+            />
+          </div>
+        </div>
+        <div class="rh me-3 ms-3"></div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            margin-top: 0.3em;
+          "
+        >
+          <div id="reaction1" class="reaction">
+            <img
+              src="./icons/icons8_facebook_like_24px_1.png"
+              width="20px"
+              height="20px"
+              alt="ss"
+            />
+            <span class="span mt-3">Like</span>
+          </div>
+          <div id="reaction2" class="reaction">
+            <img
+              src="./icons/icons8_comments_26px.png"
+              alt="hd"
+              width="20px"
+              height="20px"
+            />
+            <span class="span">Comment</span>
+          </div>
+          <div id="reaction3" class="reaction">
+            <img
+              src="./images/icons8_right_2_50px.png"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            <span class="span">Share</span>
+          </div>
+        </div>
+        <div class="r2h mt-1 me-3 ms-3 mb-2"></div>
+        <div style="display: flex" class="mb-2 pe-3 ps-3">
+          <img
+            src="./images/IMG_6742.JPG"
+            class="rounded-circle"
+            width="35px"
+            height="35px"
+            alt="hm"
+            style="object-fit: cover"
+          />
+          <input
+            type="text"
+            placeholder="Write an answer..."
+            class="form-control-plaintext rounded-pill ms-2"
+          />
+        </div>
+        <div style="display: flex">
+          <div style="display: inline-block" class="mb-2 pe-3 ps-3">
+            <img
+              src="./images/ahmad kalid dp.jpg"
+              class="rounded-circle"
+              width="35px"
+              height="35px"
+              alt="hm"
+              style="object-fit: cover"
+            />
+            <div class="r3h ms-3"></div>
+          </div>
+          <div
+            class="p-2 round"
+            style="background-color: #f1f1f1; line-height: 1.15em"
+          >
+            <p style="font-weight: 600; margin-bottom: 0; font-size: 0.8em">
+              Aries jen trayvon
+            </p>
+            <p style="font-size: 0.95em">
+              Programing is coding <br />
+              coding is programming...
+              <a href="#" class="text-decoration-none text-dark">
+                <b> See more</b></a
+              >
+            </p>
+            <div class="react rounded-pill p-1 shadow-sm">
+              <img
+                src="./images/laugh.png"
+                alt="ds"
+                width="16px"
+                height="16px"
+              /><span style="font-size: 0.8em; opacity: 0.5">355</span>
+            </div>
+            <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+              >Like</span
+            >
+            <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+              >Reply</span
+            >
+            <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+              >Share</span
+            >
+            <span style="font-size: 0.8em; cursor: pointer; opacity: 0.5"
+              >12h</span
+            >
+          </div>
+        </div>
+        <div style="display: flex">
+          <div class="r4h"></div>
+          <img
+            src="./images/icons8_down_right_64px_1.png"
+            width="18px"
+            height="18px"
+            alt=""
+            style="margin-top: -20px; margin-left: 5px; margin-right: 8px"
+          />
+          <a href="#" class="text-decoration-none" style="margin-top: -24px"
+            ><span class="span">View all 3 replies</span></a
+          >
+        </div>
+      </div>
+      <div class="card bg-light mb-3 pt-2 pb-3 border-0 shadow-sm live post">
+        <p
+          style="font-size: 0.9em; opacity: 0.7; font-weight: 500"
+          class="pe-4 ps-3 mb-2"
+        >
+          <b>Liege Muhammad A. Shareef</b> replied to a <b>comment</b> on a post
+          from November 7, 2019.
+        </p>
+        <div class="ms-3 r2h mb-3"></div>
+        <div class="mb-1 pe-3 ps-3" style="display: flex">
+          <a class="over" href="./images/liege dp.jpg">
+            <img
+              src="./images/liege dp.jpg"
+              alt="me"
+              width="40px"
+              height="40px"
+              class="rounded-circle"
+            />
+          </a>
+          <p class="sign ms-3" style="margin-top: -5px">
+            Liege Muhammad A. Shareef <br />
+            <span style="font-size: 0.8em; opacity: 0.5"
+              >November 7, 2019 ·<img
+                src="./images/icons8_group_48px.png"
+                width="16px"
+                height="16px"
+                style="margin-top: -5px"
+              />
+            </span>
+          </p>
+        </div>
+        <div
+          class="mb-4 pe-3"
+          style="
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-top: -54px;
+          "
+        >
+          <img
+            src="./images/icons8_menu_vertical_24px.png"
+            alt="sc"
+            width="20px"
+            height="20px"
+            class="me-2"
+          />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="post"
+          ></button>
+        </div>
+        <p style="margin-top: -8px; font-weight: 480" class="pe-3 ps-3 mb-2">
+          Still Liege
+        </p>
+
+        <img
+          src="./images/liege post.jpg"
+          width="100%"
+          height="auto"
+          alt="my post"
+        />
+        <div style="display: flex" class="pe-3 ps-3 pt-2">
+          <img
+            src="./images/like.png"
+            alt="mm"
+            width="18px"
+            height="18px"
+            style="margin-right: -3px; z-index: 1"
+          />
+          <img
+            src="./images/laugh.png"
+            alt="mm"
+            width="18px"
+            height="18px"
+            style="margin-right: -3px; z-index: 1"
+          />
+          <img src="./images/love.png" alt="mm" width="18px" height="18px" />
+          <p
+            style="
+              opacity: 0.8;
+              font-weight: 500;
+              font-size: 0.95em;
+              margin-left: 0.4em;
+              margin-top: -3px;
+            "
+          >
+            85
+          </p>
+        </div>
+        <div style="display: flex; justify-content: end; margin-top: -35px">
+          <span class="mb-2" style="margin-top: -5px">57</span
+          ><img
+            src="./images/icons8_comments_26px.png"
+            alt="mm"
+            width="16px"
+            height="20px"
+            class="ms-1"
+          />
+          <span class="ms-2" style="margin-top: -5px">1</span
+          ><img
+            src="./images/icons8_right_2_50px.png"
+            alt="mm"
+            width="16px"
+            height="20px"
+            class="ms-1 me-3"
+          />
+        </div>
+
+        <div class="rh me-3 ms-3"></div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            margin-top: 0.5em;
+          "
+        >
+          <div>
+            <img
+              src="./icons/icons8_facebook_like_24px_1.png"
+              width="20px"
+              height="20px"
+              alt="ss"
+            />
+            <span class="span mt-3">Like</span>
+          </div>
+          <div>
+            <img
+              src="./icons/icons8_comments_26px.png"
+              alt="hd"
+              width="20px"
+              height="20px"
+            />
+            <span class="span">Comment</span>
+          </div>
+          <div>
+            <img
+              src="./images/icons8_right_2_50px.png"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            <span class="span">Share</span>
+          </div>
+        </div>
+        <div class="r2h mt-2 me-3 ms-3 mb-2"></div>
+        <span class="span ps-3 mb-2">View more comment</span>
+        <div style="display: flex; margin-bottom: 0.5em">
+          <div class="pe-3 ps-3">
+            <img
+              src="./images/favour.jpg"
+              class="rounded-circle"
+              width="35px"
+              height="35px"
+              alt="hm"
+              style="object-fit: cover"
+            />
+          </div>
+          <div>
+            <div
+              class="p-2"
+              style="
+                background-color: #f1f1f1;
+                line-height: 1.15em;
+                border-radius: 10px;
+              "
+            >
+              <p style="font-weight: 600; margin-bottom: 0; font-size: 0.8em">
+                Phay vhour
+              </p>
+              <p style="font-size: 0.95em; margin-bottom: 0">
+                When Elon musk Bwoi dey hot
+              </p>
+            </div>
+            <div style="display: block">
+              <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+                >Like</span
+              >
+              <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+                >Reply</span
+              >
+              <span style="font-size: 0.8em; cursor: pointer; opacity: 0.5"
+                >17h</span
+              >
+            </div>
+            <div class="" style="display: flex">
+              <img
+                src="./images/liege dp.jpg"
+                class="rounded-circle"
+                width="25px"
+                height="25px"
+                alt="hm"
+                style="object-fit: cover"
+              />
+
+              <div
+                class="p-2 ms-2"
+                style="
+                  background-color: #f1f1f1;
+                  line-height: 1.15em;
+                  border-radius: 10px;
+                "
+              >
+                <p style="font-weight: 600; margin-bottom: 0; font-size: 0.8em">
+                  liege Muhammad A. Shareef
+                </p>
+                <p
+                  style="font-weight: bold; margin-bottom: 0; font-size: 0.8em"
+                >
+                  Phay vhour
+                </p>
+                <p style="font-size: 0.95em; margin-bottom: 0">Ah dey tell u</p>
+              </div>
+            </div>
+            <div style="display: block; margin-left: 37px">
+              <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+                >Like</span
+              >
+              <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+                >Reply</span
+              >
+              <span style="font-size: 0.8em; cursor: pointer; opacity: 0.5"
+                >4h</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex" class="pe-3 ps-3">
+          <img
+            src="./images/IMG_6742.JPG"
+            class="rounded-circle"
+            width="35px"
+            height="35px"
+            alt="hm"
+            style="object-fit: cover"
+          />
+          <input
+            type="text"
+            placeholder="Write an answer..."
+            class="form-control-plaintext rounded-pill ms-2"
+          />
+        </div>
+      </div>
+      <div class="card bg-light mb-3 pt-2 pb-3 border-0 shadow-sm live post">
+        <div class="mb-1 pe-3 ps-3" style="display: flex">
+          <a class="over" href="./images/computer science dp.jpg">
+            <img
+              src="./images/computer science dp.jpg"
+              alt="me"
+              width="35px"
+              height="35px"
+              class="over"
+            />
+            <img
+              src="./images/suleiman dp.jpg"
+              class="rounded-circle nerhzii"
+              alt="top"
+              width="23px"
+              height="23px"
+              style="object-fit: cover"
+            />
+          </a>
+          <p class="sign ms-3" style="margin-top: -5px">
+            Computer science student's<br />
+            <span class="span" style="font-size: 0.8em"
+              >Suleiman Abubakar · 12h ·
+            </span>
+          </p>
+        </div>
+        <div
+          class="mb-4 pe-3"
+          style="
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-top: -54px;
+          "
+        >
+          <img
+            src="./images/icons8_menu_vertical_24px.png"
+            alt="sc"
+            width="20px"
+            height="20px"
+            class="me-2"
+          />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="post"
+          ></button>
+        </div>
+        <div class="hr"></div>
+        <img
+          src="./images/linux post.jpg"
+          width="100%"
+          height="auto"
+          alt="my post"
+        />
+        <div class="hr"></div>
+        <div style="display: flex" class="pe-3 ps-3 pt-2">
+          <img src="./images/laugh.png" alt="mm" width="20px" height="20px" />
+          <img src="./images/like.png" alt="mm" width="20px" height="20px" />
+          <p
+            style="
+              opacity: 0.8;
+              font-weight: 500;
+              font-size: 0.95em;
+              margin-left: 5px;
+            "
+          >
+            3.3k
+          </p>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -35px;
+            margin-right: 0.9em;
+            margin-bottom: 0.5em;
+          "
+        >
+          <span>1k</span
+          ><img
+            src="./images/icons8_comments_26px.png"
+            alt="mm"
+            width="16px"
+            height="20px"
+            class="ms-1"
+          />
+          <span class="ms-2">785</span
+          ><img
+            src="./images/icons8_right_2_50px.png"
+            alt="mm"
+            width="16px"
+            height="20px"
+            class="ms-1"
+          />
+        </div>
+        <div class="rh me-3 ms-3"></div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            margin-top: 0.5em;
+          "
+        >
+          <div>
+            <img
+              src="./icons/icons8_facebook_like_24px_1.png"
+              width="20px"
+              height="20px"
+              alt="ss"
+            />
+            <span class="span mt-3">Like</span>
+          </div>
+          <div>
+            <img
+              src="./icons/icons8_comments_26px.png"
+              alt="hd"
+              width="20px"
+              height="20px"
+            />
+            <span class="span">Comment</span>
+          </div>
+          <div>
+            <img
+              src="./images/icons8_right_2_50px.png"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            <span class="span">Share</span>
+          </div>
+        </div>
+        <div class="r2h mt-2 me-3 ms-3 mb-2"></div>
+        <div style="display: flex" class="mb-2 pe-3 ps-3">
+          <img
+            src="./images/IMG_6742.JPG"
+            class="rounded-circle"
+            width="35px"
+            height="35px"
+            alt="hm"
+            style="object-fit: cover"
+          />
+          <input
+            type="text"
+            placeholder="Write an answer..."
+            class="form-control-plaintext rounded-pill ms-2"
+          />
+        </div>
+        <div style="display: flex">
+          <div style="display: inline-block" class="mb-2 pe-3 ps-3">
+            <img
+              src="./images/bashirdp.jpg"
+              class="rounded-circle"
+              width="35px"
+              height="35px"
+              alt="hm"
+              style="object-fit: cover"
+            />
+            <div class="r3h ms-3"></div>
+          </div>
+          <div
+            class="p-2 round"
+            style="background-color: #f1f1f1; line-height: 1.15em"
+          >
+            <p style="font-weight: 600; margin-bottom: 0; font-size: 0.8em">
+              Bashir muhammad jibril
+            </p>
+            <p style="font-size: 0.95em">
+              Then you see them sharing a picture of their OS broken <br />
+              asking what happenned
+            </p>
+            <div class="react rounded-pill p-1 shadow-sm">
+              <img
+                src="./images/laugh.png"
+                alt="ds"
+                width="16px"
+                height="16px"
+              /><span style="font-size: 0.8em; opacity: 0.5"></span>
+              <img
+                src="./images/like.png"
+                alt="ds"
+                width="16px"
+                height="16px"
+                style="margin-left: -5px"
+              /><span style="font-size: 0.8em; opacity: 0.5">66</span>
+            </div>
+            <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+              >Like</span
+            >
+            <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+              >Reply</span
+            >
+            <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+              >Share</span
+            >
+            <span style="font-size: 0.8em; cursor: pointer; opacity: 0.5"
+              >9h</span
+            >
+          </div>
+        </div>
+        <div style="display: flex">
+          <div class="r4h"></div>
+          <img
+            src="./images/icons8_down_right_64px_1.png"
+            width="18px"
+            height="18px"
+            alt=""
+            style="margin-top: -20px; margin-left: 5px; margin-right: 8px"
+          />
+          <a href="#" class="text-decoration-none" style="margin-top: -24px"
+            ><span class="span">View all 3 replies</span></a
+          >
+        </div>
+      </div>
+      <div class="card bg-light mb-3 pt-2 pb-3 border-0 shadow-sm live post">
+        <div class="mb-1 pe-3 ps-3" style="display: flex">
+          <a class="over" href="./icons/vawulence groupdp.png">
+            <img
+              src="./icons/vawulence groupdp.png"
+              alt="me"
+              width="35px"
+              height="35px"
+              class="over"
+            />
+            <img
+              src="./images/sunday dp.jpg
+              "
+              class="rounded-circle nerhzii"
+              alt="top"
+              width="23px"
+              height="23px"
+              style="object-fit: cover"
+            />
+          </a>
+          <p class="sign ms-3" style="margin-top: -5px">
+            University of vawulence(UNIVAW)<br />
+            <span class="span" style="font-size: 0.8em"
+              >Sunday Daniel · 12h ·
+            </span>
+          </p>
+        </div>
+        <div
+          class="mb-4 pe-3"
+          style="
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-top: -56px;
+          "
+        >
+          <img
+            src="./images/icons8_menu_vertical_24px.png"
+            alt="sc"
+            width="20px"
+            height="20px"
+            class="me-2"
+          />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="post"
+          ></button>
+        </div>
+        <p style="margin-top: -8px; font-weight: 480" class="pe-3 ps-3 mb-2">
+          Make una help me edit my pic <br />
+          I want stand beside Airport <br />
+          Best Editor should drop Aza 3k
+        </p>
+        <img
+          src="./images/vawulence post.jpg"
+          width="100%"
+          height="auto"
+          alt="my post"
+        />
+        <div class="hr"></div>
+        <div style="display: flex" class="pe-3 ps-3 pt-2">
+          <img src="./images/laugh.png" alt="mm" width="20px" height="20px" />
+          <img src="./images/like.png" alt="mm" width="20px" height="20px" />
+          <p
+            style="
+              opacity: 0.8;
+              font-weight: 500;
+              font-size: 0.95em;
+              margin-left: 5px;
+            "
+          >
+            90
+          </p>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: flex-end;
+            margin-top: -35px;
+            margin-right: 0.9em;
+            margin-bottom: 0.5em;
+          "
+        >
+          <span>58</span
+          ><img
+            src="./images/icons8_comments_26px.png"
+            alt="mm"
+            width="16px"
+            height="20px"
+            class="ms-1"
+          />
+        </div>
+        <div class="rh me-3 ms-3"></div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+            margin-top: 0.5em;
+          "
+        >
+          <div>
+            <img
+              src="./icons/icons8_facebook_like_24px_1.png"
+              width="20px"
+              height="20px"
+              alt="ss"
+            />
+            <span class="span mt-3">Like</span>
+          </div>
+          <div>
+            <img
+              src="./icons/icons8_comments_26px.png"
+              alt="hd"
+              width="20px"
+              height="20px"
+            />
+            <span class="span">Comment</span>
+          </div>
+          <div>
+            <img
+              src="./images/icons8_right_2_50px.png"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            <span class="span">Share</span>
+          </div>
+        </div>
+        <div class="r2h mt-2 me-3 ms-3 mb-2"></div>
+        <div style="display: flex" class="mb-2 pe-3 ps-3">
+          <img
+            src="./images/IMG_6742.JPG"
+            class="rounded-circle"
+            width="35px"
+            height="35px"
+            alt="hm"
+            style="object-fit: cover"
+          />
+          <input
+            type="text"
+            placeholder="Write an answer..."
+            class="form-control-plaintext rounded-pill ms-2"
+          />
+        </div>
+        <div style="display: flex; margin-bottom: 0.5em">
+          <div class="pe-3 ps-3">
+            <img
+              src="./images/sunday dp.jpg"
+              class="rounded-circle"
+              width="35px"
+              height="35px"
+              alt="hm"
+              style="object-fit: cover"
+            />
+          </div>
+          <div>
+            <div
+              class="p-2"
+              style="
+                background-color: #f1f1f1;
+                line-height: 1.15em;
+                border-radius: 10px;
+              "
+            >
+              <p style="font-weight: 600; margin-bottom: 0; font-size: 0.8em">
+                Sunday Daniel
+              </p>
+              <p style="font-size: 0.95em; margin-bottom: 0">Shey I try</p>
+            </div>
+            <div style="display: block">
+              <img
+                src="./images/vawulence comment.jpg"
+                width="200px"
+                height="110px"
+                alt=""
+                class="rounded"
+              />
+            </div>
+
+            <div style="display: block">
+              <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+                >Like</span
+              >
+              <span class="span me-2" style="font-size: 0.8em; cursor: pointer"
+                >Reply</span
+              >
+              <span style="font-size: 0.8em; cursor: pointer; opacity: 0.5"
+                >4h</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="p-3 pe-5 pb-5">
+      <div style="display: block">
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./images/IMG_6742.JPG"
+              width="30px"
+              height="30px"
+              style="object-fit: cover"
+              class="rounded-circle"
+              alt=""
+            />
+            <span class="sign ms-1">Nazif Abdullahi</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/manuva scd (4).png"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="sign ms-1">Friends</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/memories.png"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="sign ms-1">Memories</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img src="./icons/saved.png" width="30px" height="30px" alt="ll" />
+            <span class="sign ms-1">Saved</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/manuva scd (7).png"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="sign ms-1">Groups</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/manuva scd (6).png"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="sign ms-1">Video</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/manuva scd (5).png"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="sign ms-1">Marketplace</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img src="./icons/feed.png" width="30px" height="30px" alt="ll" />
+            <span class="sign ms-1">Feeds</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a
+            href="#demo"
+            class="text-decoration-none text-dark"
+            data-bs-toggle="collapse"
+          >
+            <img
+              src="./icons/seemore.png"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="sign ms-1">See more</span>
+          </a>
+        </div>
+        <div class="collapse" id="demo">
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/climate.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Climate Science Center</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/crisis.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Crisis responce</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/fonda.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Fondraisers</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/gaming video.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Gaming Video</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/messenger.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Messenger</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/messangerkids.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Messenger Kids</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/orders.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Orders and payments</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/crisis.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Pages</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/manuva scd (8).png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Play Games</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark">
+              <img
+                src="./icons/recent.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Recent ad activity</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark" id="icon">
+              <img
+                src="./dark theme icon/sun.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Light Mood</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="#" class="text-decoration-none text-dark" id="icon">
+              <img
+                src="./dark theme icon/moon.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">Dark Mood</span>
+            </a>
+          </div>
+          <div class="mb-3">
+            <a
+              href="#demo"
+              class="text-decoration-none text-dark"
+              data-bs-toggle="collapse"
+            >
+              <img
+                src="./icons/seeless.png"
+                width="30px"
+                height="30px"
+                alt="ll"
+              />
+              <span class="sign ms-1">See less</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <h6 class="text-secondary mt-3 mb-3">Your shortcuts</h6>
+      <div>
+        <div class="mt-2" style="display: flex">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/computer.png"
+              width="35px"
+              height="35px"
+              alt="ll"
+            />
+          </a>
+          <p class="sign ms-1" style="margin-top: -5px">
+            Computer Science Student's Guide
+          </p>
+        </div>
+        <div class="mb-1" style="display: flex">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/programing.png"
+              width="35px"
+              height="35px"
+              alt="ll"
+            />
+          </a>
+          <p class="sign ms-1 mt-2" style="align-self: center">
+            Programing Coding
+          </p>
+        </div>
+        <div class="mb-3" style="display: flex">
+          <a href="#" class="text-decoration-none text-dark">
+            <img
+              src="./icons/vawulence groupdp.png"
+              width="35px"
+              height="35px"
+              alt="ll"
+            />
+          </a>
+          <p class="sign mt-2 ms-1" style="align-self: center">
+            Vawulence Headquarters
+          </p>
+        </div>
+      </div>
+      <p class="mb-5" style="font-size: 0.8em; font-weight: 500; opacity: 0.8">
+        Privacy · Terms · Advertising · Ad choices Cookies · More · Nazif © 2023
+      </p>
+    </nav>
+
+    <aside class="p-2 pb-3" style="z-index: 1">
+      <h6 class="text-secondary mt-3 mb-3">Sponsored</h6>
+      <div class="mb-2" style="display: flex">
+        <a href="#" class="text-decoration-none text-dark">
+          <img src="./icons/side.png" width="110px" height="110px" alt="ll" />
+        </a>
+        <p class="sign ms-1" style="align-self: center">
+          Write clear. mistake free essays and reports
+          <span class="span ms-1">grammarly.com</span>
+        </p>
+      </div>
+      <div class="hr"></div>
+      <h6 class="text-secondary mt-3 mb-3">Birthdays</h6>
+      <div class="mb-2" style="display: flex">
+        <a href="#" class="text-decoration-none text-dark">
+          <img src="./icons/birthday.png" width="24px" height="24px" alt="ll" />
+        </a>
+        <p
+          class="sign ms-3"
+          style="
+            align-self: center;
+            opacity: 0.9;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 0.9em;
+          "
+        >
+          <b>jameelah Abdullahee</b>'s birthday is today.
+        </p>
+      </div>
+      <div class="hr"></div>
+      <div style="display: flex; flex-direction: row">
+        <div style="align-self: flex-start">
+          <h6 class="text-secondary mt-3 mb-3" style="font-size: 1.1em">
+            Contacts
+          </h6>
+        </div>
+        <div class="mt-3 mb-3">
+          <img
+            src="./images/icons8_search_24px.png"
+            alt="sc"
+            width="20px"
+            height="20px"
+            class="ms"
+          />
+          <img
+            src="./images/icons8_menu_vertical_24px.png"
+            width="20px"
+            height="20px"
+            alt="cs"
+          />
+        </div>
+      </div>
+      <div style="display: block">
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./images/sunday dp.jpg"
+              class="rounded-circle"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="active">•</span>
+
+            <span class="sign ms-1">Sunday Daniel</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./images/suleiman dp.jpg"
+              class="rounded-circle border border-2 border-primary"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="active">•</span>
+            <span class="sign ms-1">Suleiman abubakar Mustapha</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./images/abdullahidp.jpg"
+              class="rounded-circle"
+              width="30px"
+              height="30px"
+              alt="ll"
+            /><span class="active">•</span>
+            <span class="sign ms-1">Abdullahi Abdullahi</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./images/bashirdp.jpg"
+              class="rounded-circle border border-2 border-primary"
+              width="30px"
+              height="30px"
+              alt="ll"
+            /><span class="active">•</span>
+            <span class="sign ms-1">Bashir Muhammad</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./images/abdulmalik dp.jpg"
+              class="rounded-circle"
+              width="30px"
+              height="30px"
+              alt="ll"
+            /><span class="active">•</span>
+            <span class="sign ms-1">Abdulmalik Abdulkadir</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./images/abdulsalamdp.jpg"
+              class="rounded-circle border border-2 border-primary"
+              width="30px"
+              height="30px"
+              alt="ll"
+            /><span class="active">•</span>
+            <span class="sign ms-1">Abdulsalam Abubakar</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./images/favour.jpg"
+              class="rounded-circle"
+              width="30px"
+              height="30px"
+              alt="ll"
+            /><span class="active">•</span>
+            <span class="sign ms-1">Phay vhour</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./icons/abdlaziz.png"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="sign ms-1">Abdulaxix Ahmad</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark">
+            <img src="./icons/david.png" width="30px" height="30px" alt="ll" />
+            <span class="sign ms-1">David Kamtuas</span>
+          </a>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <h6 class="text-secondary mt-3 mb-3">Groups conversations</h6>
+      <div style="display: block">
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./icons/amnss.png"
+              class="rounded-circle"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="active">•</span>
+
+            <span class="sign ms-1">Amnss old student</span>
+          </a>
+        </div>
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none text-dark friend">
+            <img
+              src="./icons/a1.png"
+              class="rounded-circle"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <span class="active">•</span>
+
+            <span class="sign ms-1">Bstf forever</span>
+          </a>
+        </div>
+        <div class="mb-2">
+          <a
+            href="#"
+            class="text-decoration-none text-dark friend"
+            style="display: flex"
+          >
+            <img
+              src="./icons/LASTDP.png"
+              class="rounded-circle"
+              width="30px"
+              height="30px"
+              alt="ll"
+            />
+            <p class="sign ms-1">
+              Abbas maje nassarawa secondary school student 2022/2023 Season
+            </p>
+          </a>
+        </div>
+        <div class="mb-5">
+          <a
+            href="#"
+            class="text-decoration-none text-dark"
+            style="display: flex"
+          >
+            <button
+              type="button"
+              class="btn p-1 pe-2 ps-2 pb-2 text-secondary border-0 rounded-circle"
+              style="
+                font-weight: bold;
+                font-size: 1.5em;
+                background-color: #dbdbdb;
+              "
+            >
+              +
+            </button>
+            <span class="sign ms-1 mt-2">Create New group</span>
+          </a>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="edit border-0 rounded-circle shadow shadow-lg"
+      >
+        <img
+          src="./icons/pen-to-square.svg"
+          alt="meme"
+          width="23px"
+          height="23px"
+        />
+      </button>
+    </aside>
+    <script></script>
+  </body>
+</html>

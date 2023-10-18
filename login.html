@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="facbook.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body style="background-color: aliceblue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="her">
+            <span
+              class="text-primary font-weight-bold fb"
+              style="font-family: Arial, Helvetica, sans-serif"
+            >
+              facebook
+            </span>
+            <p class="span">
+              Facebook helps you connect and share with people in your life.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form action="newone.html" class="needs-validation me" novalidate>
+            <div class="rounded-3 w-75 bg-white shadow p-3">
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control pb-3"
+                  placeholder="Email address or phone number"
+                  required
+                />
+                <div class="valid-feedback">nice one</div>
+                <div class="invalid-feedback">please fill the field</div>
+              </div>
+
+              <div class="form-group mb-3">
+                <input
+                  type="password"
+                  class="form-control pb-3"
+                  placeholder="Password"
+                  required
+                />
+                <div class="valid-feedback">nice one</div>
+                <div class="invalid-feedback">please fill the field</div>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="w-100 btn btn-primary pb-3">
+                  <b>Log in</b>
+                </button>
+                <a
+                  class="text-decoration-none"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    display: flex;
+                    justify-content: center;
+                  "
+                  href="#"
+                  >Forgotten password?</a
+                >
+                <hr />
+                <div class="form-group pb-3 center2">
+                  <button
+                    type="button"
+                    class="btn btn-success"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                  >
+                    <b>Create new account</b>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <p class="mt-4 ms-4">
+              <strong>Create Page</strong> for celebrity, brand or bussiness
+            </p>
+          </form>
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header" style="margin-top: -15px">
+                  <div style="display: block">
+                    <h2
+                      class="modal-title"
+                      style="
+                        font-weight: bold;
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin-top: -10px;
+                      "
+                    >
+                      Sign Up
+                    </h2>
+                    <p
+                      class="text-secondary"
+                      style="margin-top: -6px; margin-bottom: -8px"
+                    >
+                      it's quick and easy.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <form
+                    action="newone.html"
+                    class="needs-validation"
+                    novalidate
+                  >
+                    <div class="row">
+                      <div class="col-md-6 mb-2">
+                        <input
+                          type="text"
+                          class="form-control bg-light text-secondary"
+                          placeholder="First name"
+                          required
+                        />
+                        <div class="valid-feedback">nice one</div>
+                        <div class="invalid-feedback">
+                          please fill the field
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-2">
+                        <input
+                          type="text"
+                          class="form-control bg-light text-secondary"
+                          placeholder="Surname"
+                          required
+                        />
+                        <div class="valid-feedback">nice one</div>
+                        <div class="invalid-feedback">
+                          please fill the field
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-2">
+                      <input
+                        type="email"
+                        class="form-control bg-light text-secondary"
+                        placeholder="Mobile number or email address"
+                        required
+                      />
+                      <div class="valid-feedback">nice one</div>
+                      <div class="invalid-feedback">please fill the field</div>
+                    </div>
+                    <div class="mb-2">
+                      <input
+                        type="password"
+                        class="form-control bg-light text-secondary"
+                        placeholder="New password"
+                        required
+                      />
+                      <div class="valid-feedback">nice one</div>
+                      <div class="invalid-feedback">please fill the field</div>
+                    </div>
+                    <div class="row">
+                      <label for="date" class="form-label"
+                        >Date of birth <img src="./images/help.png"
+                      /></label>
+                      <div class="col-md-4 mb-2">
+                        <select
+                          name="birth"
+                          id="date"
+                          class="form-select"
+                          required
+                        >
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                          <option>13</option>
+                          <option>14</option>
+                          <option>15</option>
+                          <option>16</option>
+                          <option>17</option>
+                          <option>18</option>
+                          <option>19</option>
+                          <option>20</option>
+                          <option>21</option>
+                          <option>22</option>
+                          <option>23</option>
+                          <option>24</option>
+                          <option>25</option>
+                          <option>26</option>
+                          <option>27</option>
+                          <option>28</option>
+                          <option>29</option>
+                          <option>30</option>
+                          <option>31</option>
+                        </select>
+                        <div class="valid-feedback">nice one</div>
+                        <div class="invalid-feedback">
+                          please fill the field
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-2">
+                        <select
+                          name="bith"
+                          id="date"
+                          class="form-select"
+                          required
+                        >
+                          <option>Jan</option>
+                          <option>Feb</option>
+                          <option>Mar</option>
+                          <option>Apr</option>
+                          <option>May</option>
+                          <option>Jun</option>
+                          <option>Jul</option>
+                          <option>Aug</option>
+                          <option>Sep</option>
+                          <option>Oct</option>
+                          <option>Nov</option>
+                          <option>Dec</option>
+                        </select>
+                        <div class="valid-feedback">nice one</div>
+                        <div class="invalid-feedback">
+                          please fill the field
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-2">
+                        <select
+                          name="birh"
+                          id="date"
+                          class="form-select"
+                          required
+                        >
+                          <option>1999</option>
+                          <option>2000</option>
+                          <option>2001</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>2006</option>
+                          <option>2007</option>
+                          <option>2008</option>
+                          <option>2009</option>
+                          <option>2010</option>
+                          <option>2011</option>
+                          <option>2012</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                          <option>2015</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>20021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                        </select>
+                        <div class="valid-feedback">nice one</div>
+                        <div class="invalid-feedback">
+                          please fill the field
+                        </div>
+                      </div>
+                    </div>
+
+                    <label
+                      style="margin-left: -25px"
+                      for="rdaio"
+                      class="form-check"
+                      >Gender <img src="./images/help.png"
+                    /></label>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="border rounded-2 p-1">
+                          <label for="rdaio2" class="form-check-labelss"
+                            >Female
+                            <input
+                              type="radio"
+                              name="rdai"
+                              id="rdaio2"
+                              class="form-check-input ms-5"
+                              required
+                          /></label>
+                          <div class="valid-feedback">nice one</div>
+                          <div class="invalid-feedback">
+                            please fill the field
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="border rounded-2 p-1">
+                          <label for="rdaio1" class="form-check-label"
+                            >Male
+                            <input
+                              type="radio"
+                              name="rdai"
+                              id="rdaio1"
+                              class="form-check-input ms-5"
+                              required
+                          /></label>
+                          <div class="valid-feedback">nice one</div>
+                          <div class="invalid-feedback">
+                            please fill the field
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="border rounded-2 p-1">
+                          <label for="rdaio3" class="form-check-label"
+                            >Custom
+                            <input
+                              type="radio"
+                              name="rdai"
+                              id="rdaio3"
+                              class="form-check-input ms-5"
+                              required
+                          /></label>
+                          <div class="valid-feedback">nice one</div>
+                          <div class="invalid-feedback">
+                            please fill the field
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p style="font-size: 0.9em">
+                      People who use our service may have uploaded your contact
+                      information to faceebook.
+                      <a class="text-decoration-none" href="###">learn more.</a>
+                    </p>
+
+                    <p style="font-size: 0.9em">
+                      By clicking Sing Up you agree to our
+                      <a class="text-decoration-none" href="##"
+                        >Terms, Privacy, policy</a
+                      >
+                      and
+                      <a class="text-decoration-none" href="##"
+                        >Cookies policy</a
+                      >
+                      You may receive SMS notifications from us and can opt out
+                      at any time.
+                    </p>
+                    <div style="display: flex; justify-content: center">
+                      <button
+                        type="submit"
+                        class="btn btn-success pe-5 ps-5"
+                        style="font-family: Arial, Helvetica, sans-serif"
+                      >
+                        <b>Sing up</b>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          // Disable form submissions if there are invalid fields
+          (function () {
+            "use strict";
+            window.addEventListener(
+              "load",
+              function () {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName("needs-validation");
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(
+                  forms,
+                  function (form) {
+                    form.addEventListener(
+                      "submit",
+                      function (event) {
+                        if (form.checkValidity() === false) {
+                          event.preventDefault();
+                          event.stopPropagation();
+                        }
+                        form.classList.add("was-validated");
+                      },
+                      false
+                    );
+                  }
+                );
+              },
+              false
+            );
+          })();
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
